@@ -1,0 +1,12 @@
+python main.py \
+    --use-consolidated \
+    --dataset-path data/dataset_consolidated.h5 \
+    --batch-size 128 \
+    --num-workers 8 \
+    --epochs 100 \
+    --lr 1e-4 \
+    --checkpoint-freq 10 \
+    --experiment-name "dreamer-optimized" \
+    --h-state-size 200 \
+    --z-state-size 30 \
+    --action-size 128
